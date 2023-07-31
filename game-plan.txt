@@ -1,0 +1,25 @@
+1. Rocket
+    Moving sideways
+        a. by keyboard keys ([a/d], [arrowL/arrowR])
+            arrowL -> Decrease the left space
+            arrowR -> Increase the left space
+        b. by mouse(the rocket follows the mouse pointer)
+                everytime the mouse moves the rocket will move
+2. Meteors
+    Creating Meteors
+        Placing the Meteors in a random position outside the space
+
+    Moving Meteors(bringing them down)
+        increase the space between the top of th window and the Meteor
+        Check colliding
+3. Points
+        Check the meteor level
+            if(level > 500px)
+                points++
+4. Fuel
+        Start at 500 (galons)
+        Decrease 1 galon / seconds
+        Generate stars
+            Make the stars fall
+            Check if colliding
+                    increase the Fuel

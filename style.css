@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.game {
+  /* border: 10px solid yellow; */
+  width: 40%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: relative;
+}
+
+#rocket {
+  position: absolute;
+  left: 120px;
+  bottom: 30px;
+  width: 70px;
+  height: 150px;
+  background-image: url("./space_ship.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.meteor {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* background-color: red; */
+  background-image: url("./meteor.png");
+  background-size: contain;
+  position: absolute;
+}
+.star {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("./star.png");
+  background-size: contain;
+  position: absolute;
+}
+
+.points {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
