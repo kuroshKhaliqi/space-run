@@ -71,7 +71,7 @@ function moveRocket(e) {
   }
 }
 function moveRocketByMouse(e) {
-  if (e.clientX - 650 > 0 && e.clientX - 600 < 850) {
+  if (e.clientX - 650 > 0 && e.clientX - 600 < 800) {
     rocketElement.style.left = e.clientX - 650 + "px";
   }
 }
